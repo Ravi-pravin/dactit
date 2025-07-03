@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ========== Global ========== */
+body {
+    font-family: "League Spartan", sans-serif;
+    background-image: url(./assets/images/2025-06-30\ 13_22_12-dact\ bg\ -\ Paint.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: "League Spartan", sans-serif;
+}
+
+
+button{
+    font-family: "Roboto", sans-serif;
+}
+
+/* ========== Heading ========== */
+.headingtext {
+    font-size: 45px;
+    font-weight: 600;
+    color: #309cda;
+    padding-bottom: 3rem;
+}
+
+.fa-dashcube {
+    color: #039663;
+    font-size: 20px;
+    margin: 0 10px 10px;
+}
+
+.lineIcon {
+    display: inline-block;
+    width: 7rem;
+    height: 1.5px;
+    background-color: #309cda;
+    vertical-align: middle;
+    margin-top: 9px;
+}
+
+.headingicon {
+    padding-bottom: 1rem;
+}
+
+/* ========== Navbar ========== */
+.navbar {
+    background-color: #1f1f1f;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    z-index: 999;
+}
+
+.navbar .nav-link {
+    color: #309cda;
+    font-weight: 400;
+    margin: 0 10px;
+    font-size: 21px;
+    transition: color 0.3s;
+}
+
+.nav .nav-link:hover,
+.nav .nav-link:focus {
+    color: #ffffff;
+}
+
+.navbar .dropdown-menu {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    color: #333;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+}
+
+.navbar .contactbtn {
+    padding: 7px 23px;
+    border-radius: 10px;
+    color: #309cda;
+    background-color: #ffffff;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* hero */
+.herovideo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.heroSection h3 {
+    font-size: 52px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 3.5rem;
+}
+
+.herobtn{
+    border-radius: 15px;
+}
+
+.heroSection p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.heroSection button {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    background-color: #309cda;
+}
+
+.heroSection .row {
+    padding: 11rem 0rem 11rem 0rem;
+}
+
+/* hero */
+
+/* ========== Service Section Cards ========== */
+.serviceSection .card-header img {
+    height: 14rem;
+    width: auto;
+}
+
+.serviceSection .card {
+    background-color: transparent;
+    box-shadow: 0 0 25px rgba(249, 249, 249, 0.15);
+    border-radius: 50px;
+    border-top: 3px solid #039663;
+    height: 523px;
+}
+
+.serviceSection .card-body h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #309cda;
+}
+
+.serviceSection .card-footer p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #f5f5f5;
+}
+
+.serviceSection .card {
+    transition: transform 0.3s ease;
+}
+
+.serviceSection .card:hover {
+    transform: scale(0.85);
+}
+
+
+/* location */
+.locationSection {
+    background-color: #000000;
+}
+
+.locationSection img {
+    width: 20rem;
+}
+
+.locationSection h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #309cda;
+}
+
+.locationSection i {
+    font-size: 45px;
+    color: #309cda;
+}
+
+/* location */
+
+/* ========== Footer ========== */
+.footerlinkrow {
+    background: linear-gradient(to top right, #021430 85%, #8c94c7);
+}
+
+.copyrow {
+    background-color: #040404;
+}
+
+.footerSection ul {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footerSection p {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footerSection span {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.copyrights {
+    padding-left: 8rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    padding-right: 12rem;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #309cda;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.social-icons a i {
+    font-size: 18px;
+}
+
+
+/* client */
+.carouselrow {
+    background-color: #ffffff;
+}
+
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 40px;
+    animation: scroll 30s linear infinite;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 180px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
+
+/* client */
+
+/* testimonialcardSection */
+.testimonialcardSection .card {
+    background-color: #ffffff33;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 60% 60%;
+    background-color: #000;
+    padding: 15px;
+}
+
+.carousel-indicators li {
+    background-color: #309cda;
+}
+
+.carousel-indicators .active {
+    background-color: #02355a;
+}
+
+.testimonialcardSection .card-body {
+    padding: 20px;
+}
+
+.testimonialcardSection .card-title {
+    color: #309cda;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.testimonialcardSection .card-text {
+    color: #444;
+}
+
+/* testimonialcardSection */
+
+/* accordoion */
+.accordionSection .card-header button[aria-expanded="true"] i {
+    transform: rotate(180deg);
+    transition: transform 0.3s;
+}
+
+.accordionSection .card {
+    background-color: transparent;
+}
+
+.accordionSection button {
+    color: #309cda;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.accordionSection .card-body p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.accordionSection .card-body {
+    background-color: #000000;
+}
+
+.accordionSection .card-header button i {
+    transition: transform 0.3s;
+}
+
+
+/* accordoion */
