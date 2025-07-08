@@ -221,14 +221,9 @@ button{
     font-weight: 700;
 }
 
-.copyrights {
-    padding-left: 8rem;
-}
-
 .social-icons {
     display: flex;
     gap: 15px;
-    padding-right: 12rem;
 }
 
 .social-icons a {
@@ -361,3 +356,34 @@ button{
 
 
 /* accordoion */
+
+
+
+@media (max-width: 576px) {
+
+    .serviceSection .card{
+        margin: 1.5rem;
+    }
+    .paperplain{
+        display: none;
+    }
+    .footerlinkcol{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerlink{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyrights{
+        padding: 0;
+    }
+    
+    .social-icons{
+        padding-right: 0;
+    }
+
+}
